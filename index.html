@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Bienvenido a JapanFood</title>
+</head>
+
+<body>
+  
+  <!--========================================================== -->
+                          <!-- ENCABEZADO -->
+  <!--========================================================== -->
+  <header class="container-fluid bg-danger d-flex justify-content-center">
+    <img src="./img/logo png.png" class="img-thumbnail" alt="logo">
+    <p class="text-light mb-0 p-3  fs-6 ">Delivery (+58 412-963-7160)</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <span class="fs-5 text-danger fw-bold">JapanFood</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#equipo">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comida">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservar">Reservar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#img-equipo">Ubicanos</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!--========================================================== -->
+  <!-- SLIDER DE IMAGENES-->
+  <!--========================================================== -->
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="./img/soba.jpg" class="d-block w-100" alt="Comida">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulodelslider bg-dark">Comida Japonesa</h1>
+          <p class="contenidodelslider bg-dark">Takoyaki, Kare Raisu, Okinomiyaki, Onigiri, Soba, Sopa Miso, Tempura, Yakisoba.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="./img/te_verde.jpg" class="d-block w-100" alt="bebida">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulodelslider bg-dark ">Bebidas</h1>
+          <p class="contenidodelslider bg-dark">Ramune, Sake, Te Matcha.</p>
+        </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="5000">
+        <img src="./img/daifuku.jpg" class="d-block w-100" alt="Dulces">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulodelslider bg-dark">Dulces</h1>
+          <p class="contenidodelslider bg-dark">Daiguku, Dango, Dorayaki, Kasutera, Yokan.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--========================================================== -->
+  <!-- INTRODUCCION DE SERVICIOS-->
+  <!--========================================================== -->
+
+
+  <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+    id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Restaurante <span class="text-danger"> Japones</span></h1>
+    <p class="p-3  fs-4">
+      <span class="text-danger">JapanFood.</span> ofrece una excelente gastronomía que se define a través de 
+      nuestros productos importados, así como también la mejor selección de mercancía nacional, con lo que logramos
+       el sabor único que te podemos ofrecer con nuestro pequeño menu.
+    </p>
+  </section>
+
+  <!--========================================================== -->
+  <!-- menu de comida-->
+  <!--========================================================== -->
+
+  <div class="central" id=comida>
+    <h1>Comida</h1>
+  </div>
+  <section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/takoyaki.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Takoyaki</h3>
+          <p class="px-4">El Takoyaki es una comida japonesa hecha a base de harina de trigo y pulpo.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/kare raisu.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Kare Raisu</h3>
+          <p class="px-4">El curry es uno de los platos más populares de Japón. Suele servirse junto con arroz y tonkatsu u otros acompañamientos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/okimiyaki.jpeg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Okinomiyaki</h3>
+          <p class="px-4">El okonomiyaki es una comida japonesa que consiste en una masa con varios ingredientes cocinados a la plancha..</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/onigiri.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Onigiri</h3>
+          <p class="px-4">Onigiri también conocido como Omusubi es un plato japonés que consiste en una bola 
+            de arroz rellena o mezclada con otros ingredientes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/soba.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Soba</h3>
+          <p class="px-4">Soba es la palabra japonesa para el trigo sarraceno, 
+            sin embargo, se utiliza más comúnmente para referirse a los fideos finos empleados
+             en la cocina japonesa elaborados con harina de dicho grano. 
+             Se sirven fríos con una salsa o caldo en que se los sumerge, o en caldo caliente como el ramen.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/sopa miso.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Sopa Miso</h3>
+          <p class="px-4">La sopa de miso o sopa miso es una sopa japonesa preparada a base de un caldo dashi
+             y pasta de miso, que le da nombre.​​​ Tiene diferentes ingredientes y preparaciones dependiendo la región
+              y la temporada en que se haga</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/Tempura.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Tempura</h3>
+          <p class="px-4">La tempura se refiere a la fritura rápida típica japonesa, en especial a los mariscos y verduras.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/yakisoba.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Yakisoba</h3>
+          <p class="px-4">los tallarines fritos, son originarios de China pero hoy en día están
+             integrados enteramente en la cocina japonesa</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="central">
+      <h1>Bebidas</h1>
+    </div>
+
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/ramune.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Ramune</h3>
+          <p class="px-4">El Ramune es una bebida gaseosa vendida originalmente en Japón</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/sake-japones.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">sake</h3>
+          <p class="px-4">El sake es una palabra del idioma japonés que significa «bebida alcohólica». Sin embargo, en los países occidentales se
+             refiere a un tipo de bebida alcohólica preparada de una fermentación hecha a partir del arroz y conocida en Japón como nihonshu.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/te_verde.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Té Matcha</h3>
+          <p class="px-4">El matcha es un té verde molido empleado en la ceremonia japonesa del té.</p>
+        </div>
+      </div>
+    </div>
+    <div class="central">
+      <h1>Dulces</h1>
+    </div>
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/daifuku.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Daifuku</h3>
+          <p class="px-4">El daifuku o daifukumochi es un dulce japonés consistente en un pequeño mochi con un relleno dulce,
+             comúnmente anko, pasta endulzada de judías azuki.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/dango.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Dango</h3>
+          <p class="px-4">El Dango es un dumpling tradicional japonés elaborado con mochiko, y derivado por lo tanto del mochi.
+             Se sirve a menudo con té verde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/dorayaki.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Dorayaki</h3>
+          <p class="px-4">El dorayaki es un tipo de dulce japonés que consiste en dos bizcochos de forma redonda relleno de anko,
+             que es una pasta de judías hecha con la variante de judías azuki.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="./img/Kasutera.jpg" alt="concepto" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Kasutera</h3>
+          <p class="px-4">Kasutera es un popular bizcocho japonés hecho con azúcar, harina, huevo y jarabe de maíz, muy común en
+             los festivales y como comida callejera</p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="./img/yokan.jpg" alt="*" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Yokan</h3>
+          <p class="px-4">El matcha es un té verde molido empleado en la ceremonia japonesa del té.</p>
+        </div>
+      </div>
+  </section>
+
+  <!--========================================================== -->
+  <!-- SECCION ACERCA DE NOSOTROS-->
+  <!--========================================================== -->
+
+  <section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+      <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-danger">Calidad inigualable</span>.</h1>
+      <p class="fs-4 ">JapanFood mantiene altos estándares de calidad, proporcionando siempre una experiencia 
+        extraordinaria a los amantes de la comida japonesa, bajo una constante rotación de productos con ingredientes frescos
+         y de gran calidad, platos innovadores y un menú variado. La excelente gastronomía se define a través de productos
+          importados, así como también la mejor selección de mercancía nacional, con lo que se logra el sabor único
+           que ofrece JapanFood.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+      <img id="img-equipo" src="./img/logo ahora si png.png" alt="equipo">
+    </div>
+    <div>
+      <h2>Ubicado En Caracas, Flores de catia</h2>
+          <h2 class="text-danger mb-4" id="typewriter"></h2>
+          <p">Estamos ubicados en Caracas, en los Flores de Catia, en la Calle el molino
+            donde nuestro horario de atención es de las 10:00.AM hasta las 5:00.pm, nuestras instalaciones son pequeñas,
+            por lo que solo nos podemos permitir un número de 10 personas comiendo en el restaurante, esto solo es posible con reservación,
+            para obtener toda la experiencia de l tierra del sol naciente, todo pedido será para llevar, poseemos Delivery por toda Caracas, 
+            el mismo es gratuito de propatria hasta la hoyada, otra zona se cobrara una pequeña comisión extra </p>
+          <section class="d-flex justify-content-start" id="numeros-local">
+            <div>
+              <p class="text-danger fs-5">248</p>
+              <p>Dias de Sol</p>
+            </div>
+            <div>
+              <p class="text-danger fs-5">100%</p>
+              <p>Aprobado</p>
+            </div>
+            <div>
+              <p class="text-danger fs-5">24 °C</p>
+              <p>Temperatura</p>
+            </div>
+          </section>
+    </div>
+    
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=instituto%20tecnico%20jesus%20obrero&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
+        <a href="https://123movies-to.org"></a>
+        <br>
+        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+        </style><a href="https://www.embedgooglemap.net">google maps widget</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--========================================================== -->
+  <!-- SECCION CONTACTOS-->
+  <!--========================================================== -->
+
+  <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <div id="bg-contactos">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,96L1440,32L1440,320L0,320Z"></path></svg>
+      </svg>
+    </div>
+
+
+    <!--========================================================== -->
+    <!-- CONTENEDOR DEL FORMULARIO -->
+    <!--========================================================== -->
+
+    <div class="container  border-top border-danger " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Solicita Tu Reserva</h2>
+        <p class="fs-5">Se le estara respondiendo e informando por mail,
+          las fechas libres para terminar de formalizar su reserva.
+        </p>
+      </div>
+
+
+
+      <form action="">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="input" class="form-control" id="nombre" placeholder="Nombre y Apellido">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+        </div>
+
+        <div class="mb-3">
+          <textarea class="form-control" id="msj" rows="4" placeholder="Indique cuantas personas comeran"></textarea>
+        </div>
+
+        <div id=reservar class="mb-3">
+          <button type="button" class=" btn btn-danger w-50 fs-0">Enviar Mensaje</button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+
+  <!--========================================================== -->
+  <!--FOOTER-->
+  <!--========================================================== -->
+
+
+  <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3  pt-3">JapanFood. &copy; Todos Los Derechos Reservados 2021</p>
+    <div id="iconos">
+      <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
